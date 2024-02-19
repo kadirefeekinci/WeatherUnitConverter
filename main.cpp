@@ -6,7 +6,8 @@ void CelToFah(double num1) {
     cout<<"Enter the Celsius number: ";
     cin>>Cel;
     double Result=(Cel*9/5)+32;
-    cout<<Result Fahrenheit;
+    cout<<Result;
+    cout<<" Fahrenheit";
 }
 
 void FahtoCel(double num1) {
@@ -14,7 +15,8 @@ void FahtoCel(double num1) {
     cout<<"enter the Fahrenheit: ";
     cin>>Fah;
     double Result=(Fah-32)*5/9;
-    cout<<Result "Celsius";
+    cout<<Result;
+    cout<<" Celsius";
 }
 
 int main() {
