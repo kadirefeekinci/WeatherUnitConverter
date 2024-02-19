@@ -28,12 +28,18 @@ int main() {
         case 'F':
             FahtoCel(a);
             break;
+        case 'f':
+            FahtoCel(a);
+            break;
         case 'C':
+            CelToFah(a);
+            break;
+        case 'c':
             CelToFah(a);
             break;
         default:
             cout<<"nonvalid operator"<<endl;
             goto menu;
-}
+    }
     return 0;
 }
